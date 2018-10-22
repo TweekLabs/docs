@@ -1,0 +1,1 @@
+watchman-make -p '**/*.rst' 'Makefile*' -t html
