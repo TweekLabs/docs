@@ -1,0 +1,2 @@
+sphinx-tabs==1.1.7
+sphinx-autobuild==0.7.1
