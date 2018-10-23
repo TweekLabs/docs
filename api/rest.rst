@@ -6,7 +6,7 @@ Tweek provides REST api for getting key values, and writing context properties.
 Getting single key value
 ------------------------
 
-.. code-block:: code
+::
 
     GET http://my-tweek.host/api/v1/keys/{keyPath}?{context}
 
@@ -20,7 +20,7 @@ Return value is a json value representing the key value for the requested contex
 Getting multiple key value (list)
 ---------------------------------
 
-.. code-block:: code
+::
 
     GET http://my-tweek.host/api/v1/keys/{keyPath}/_?{context}[$flatten=true][$include=path/to/key1&$include=path/to/inner_path/_&...]
 
@@ -33,7 +33,7 @@ All the paths in the JSON tree or object are relative to the requested keypath. 
 Adding data to context
 ----------------------
 
-.. code-block:: code
+::
 
     POST http://my-tweek.host/api/v1/context/{identityType}/{identityValue}
     {
@@ -43,7 +43,7 @@ Adding data to context
 
 Adding data to context can be used for adding new data on identity, for example:
 
-.. code-block:: code
+::
 
     POST http://my-tweek.host/api/v1/context/user/john_a@email.org
     {
@@ -53,7 +53,7 @@ Adding data to context can be used for adding new data on identity, for example:
 
 Or override specfic key value for the identity:
 
-.. code-block:: code
+::
 
     POST http://my-tweek.host/api/v1/context/user/john_a@email.org
     {

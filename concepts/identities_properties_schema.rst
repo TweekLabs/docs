@@ -22,7 +22,7 @@ Custom types
 
 A custom type is a json value with the following properties:
 
-.. code-block:: code
+::
 
     {
         "base": "can be any other primitive type", //required
