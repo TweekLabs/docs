@@ -8,19 +8,24 @@ Tweek documentation
 
   tweek is an opensource maintained by Soluto. `Tweek on github <https://github.com/Soluto/tweek/>`_.
 
-* **Overview**
-  :doc:`Introduction <introduction/introduction>`
+- **Overview**
 
-* **Getting started**:
-  :doc:`Quick start <intro/quickstart>`
+  * :doc:`Introduction <introduction/introduction>`
+  * :doc:`Why Tweek? <introduction/why_tweek>`
 
-* **Concepts**:
-  :doc:`Context <concepts/context>`
-  :doc:`Identities, properties and schema <concepts/identities_properties_schema>`
-  :doc:`Keys and Paths <concepts/keys_paths>`
+- **Getting started**:
 
-* **Api**:
-  :doc:`Rest Api <api/rest>`
+  * :doc:`Quick start <intro/quickstart>`
+
+- **Concepts**:
+
+  * :doc:`Context <concepts/context>`
+  * :doc:`Identities, properties and schema <concepts/identities_properties_schema>`
+  * :doc:`Keys and Paths <concepts/keys_paths>`
+
+- **Api**:
+
+  * :doc:`Rest Api <api/rest>`
 
 .. toctree::
   :maxdepth: 2  
@@ -28,6 +33,7 @@ Tweek documentation
   :caption: Overview
 
   introduction/introduction
+  introduction/why_tweek
 
 .. toctree::
    :maxdepth: 2
