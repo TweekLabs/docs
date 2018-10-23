@@ -11,14 +11,14 @@ Context + key definition = value
 
 For example, assuming we have a key :code:`is_allowed_to_drive` with rule:
 
-.. code-block:: java-script
+.. code-block:: code
 
 	default value: false
 	User.Age > 18 then true
 
 If we send these requests to Tweek:
 
-.. code-block:: java-script
+.. code-block:: code
 
 	GET http://api.dev.local.tweek.fm:81/api/v1/keys/is_allowed_to_drive -> false
 	GET http://api.dev.local.tweek.fm:81/api/v1/keys/is_allowed_to_drive?User.Age=20 -> true
@@ -57,7 +57,7 @@ You’ve noticed that we used “User.Age” and not simply “Age”, the reaso
 .. code-block:: code
 
 	GET http://api.dev.local.tweek.fm:81/api/v1/keys/path/to/key?User=john&User.Country=england
-	
+
 Tweek understands that it need to get the values for identity user “john”.
 Tweek look at inline context to see relevant properties for this identity, for example “User.Country=england”
 Tweek look at remote context to get all properties for identity user “john”, from previous example it would be Age=20

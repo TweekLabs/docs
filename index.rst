@@ -14,6 +14,10 @@ Tweek documentation
 * **Concepts**:
   :doc:`Context <concepts/context>`
   :doc:`Identities, properties and schema <concepts/identities_properties_schema>`
+  :doc:`Keys and Paths <concepts/keys_paths>`
+
+* **Api**:
+  :doc:`Rest Api <api/rest>`
 
 .. toctree::
    :maxdepth: 2
@@ -29,3 +33,11 @@ Tweek documentation
 
    concepts/context
    concepts/identities_properties_schema
+   concepts/keys_paths
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Api
+
+   api/rest
