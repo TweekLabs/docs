@@ -13,6 +13,7 @@ Tweek documentation
 
 * **Concepts**:
   :doc:`Context <concepts/context>`
+  :doc:`Identities, properties and schema <concepts/identities_properties_schema>`
 
 .. toctree::
    :maxdepth: 2
@@ -27,3 +28,4 @@ Tweek documentation
    :caption: Concepts
 
    concepts/context
+   concepts/identities_properties_schema
