@@ -9,18 +9,23 @@ Quick start
            return 0;
          }
 
+  .. code-tab:: javascript Rest
+
+    int main(const int argc, const char **argv) {
+      return 0;
+    }
+
    .. code-tab:: c#
 
          int main(const int argc, const char **argv) {
            return 0;
          }
 
-   .. tab:: react
+  .. code-tab:: javascript React
 
-        ::
-
-         PROGRAM main
-         END PROGRAM main
+      int main(const int argc, const char **argv) {
+        return 0;
+      }
 
 editor video
 ------------
