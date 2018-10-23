@@ -11,9 +11,19 @@ Tweek documentation
 * **Getting started**:
   :doc:`Quick start <intro/quickstart>`
 
+* **Concepts**:
+  :doc:`Context <concepts/context>`
+
 .. toctree::
    :maxdepth: 2
    :hidden:
    :caption: First Steps
 
    intro/quickstart
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Concepts
+
+   concepts/context
