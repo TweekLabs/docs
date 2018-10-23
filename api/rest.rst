@@ -5,7 +5,6 @@ Tweek provides REST api for getting key values, and writing context properties.
 
 Getting single key value
 ------------------------
-
 ::
 
     GET http://my-tweek.host/api/v1/keys/{keyPath}?{context}
@@ -19,7 +18,6 @@ Return value is a json value representing the key value for the requested contex
 
 Getting multiple key value (list)
 ---------------------------------
-
 ::
 
     GET http://my-tweek.host/api/v1/keys/{keyPath}/_?{context}[$flatten=true][$include=path/to/key1&$include=path/to/inner_path/_&...]
@@ -32,7 +30,6 @@ All the paths in the JSON tree or object are relative to the requested keypath. 
 
 Adding data to context
 ----------------------
-
 ::
 
     POST http://my-tweek.host/api/v1/context/{identityType}/{identityValue}

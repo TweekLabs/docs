@@ -3,7 +3,6 @@ Identities, properties and schema
 
 Schema
 ------
-
 Tweek allow to define schema for identities and their properties using special tweek keys.
 Usually, we’ll want to add identities and properties for our domain, for example adding the property :code:`level` to identity :code:`user` can be suited for gaming domain.
 
@@ -19,7 +18,6 @@ custom
 
 Custom types
 ------------
-
 A custom type is a json value with the following properties:
 
 ::

@@ -4,7 +4,6 @@ Context
 
 What is context?
 ----------------
-
 Context is a collection of all the facts available in a single Tweek evaluation. Context is evaluated against key’s rules to retrieve the value, meaning:
 
 Context + key definition = value
@@ -27,7 +26,6 @@ In order to get the right values from Tweek, we need to provide Tweek the releva
 
 Inline context vs remote context
 --------------------------------
-
 While we can always pass context parameters in url, a different approach is to save context in Tweek for identity. For example:
 
 ::
@@ -51,7 +49,6 @@ After adding the data, let’s retry our first request:
 
 Identities & Properties
 -----------------------
-
 You’ve noticed that we used “User.Age” and not simply “Age”, the reason is that Tweek treat facts as properties on top of identities, for example:
 
 ::

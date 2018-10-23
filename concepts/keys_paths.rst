@@ -3,7 +3,6 @@ Keys and paths
 
 Key paths
 ---------
-
 Every key in tweek represent a dynamic value that is accessible by path.
 Key paths share similar structure and semantics of a file system paths or windows registry.
 Key paths are also compatible with urls, which make them very friendly to access by REST endpoints.
@@ -30,5 +29,4 @@ my_worker/collection_interval
 
 Dependent keys
 --------------
-
 Some of the keys in Tweek are used to create complex rules, or allow better control and reuse of rules. These keys can be marked with “@” prefix so they won’t be discoverable by scan operations.
