@@ -6,7 +6,7 @@
 Tweek documentation
 ===================
 
-  tweek is an opensource maintained by soluto.
+  tweek is an opensource maintained by Soluto. `Tweek on github <https://github.com/Soluto/tweek/>`_.
 
 * **Getting started**:
   :doc:`Quick start <intro/quickstart>`
