@@ -23,9 +23,9 @@ Quick start
 
   .. code-tab:: javascript React
 
-      int main(const int argc, const char **argv) {
-        return 0;
-      }
+    int main(const int argc, const char **argv) {
+      return 0;
+    }
 
 editor video
 ------------
