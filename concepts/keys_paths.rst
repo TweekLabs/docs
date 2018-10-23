@@ -21,11 +21,9 @@ Styling/Structure Guidelines
 
 Examples
 --------
-my_app/onboarding/supported_screens
-
-my_service/user_discovery/is_enabled
-
-my_worker/collection_interval
+- my_app/onboarding/supported_screens
+- my_service/user_discovery/is_enabled
+- my_worker/collection_interval
 
 Dependent keys
 --------------
