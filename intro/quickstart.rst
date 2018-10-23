@@ -24,11 +24,15 @@ Create a client
 
 .. tabs::
 
-  .. code-tab:: javascript nodejs
+  .. code-tab:: javascript
 
     const tweekClient = createTweekClient({
       baseServiceUrl: "https://api.{subdomain}.tweeklabs.io",
     });
+
+  .. code-tab:: c#
+
+    ITweekApiClient configurationClient = new TweekApiClient(new Uri("https://api.{subdomain}.tweeklabs.io"));
 
 - :code:`{subdomain}` is the name of your organization or environment
 
@@ -43,6 +47,14 @@ Querying for "path/to/my_configuration" will lead to key named :code:`my_configu
   .. code-tab:: javascript
   
     const myConfiguration = await tweekClient.fetch("path/to/my_configuration");
+
+  .. code-tab:: c#
+
+    using Tweek.Client.Extensions;
+
+    // ... 
+
+    string myStringValue = await configurationClient.Get<string>("/path/to/my_configuration", null);
 
 Editing context
 ---------------
@@ -69,12 +81,16 @@ It is possible to update or create (upsert) it's context with the sdk.
 
     const context = {
       age: 23,
-      country: "Canada"
     };
 
     await tweekClient.appendContext("user", "John", context);
 
-Here we updated the context in tweek for identity "user" with the id "John". We set john's age to 23 and country to Canada.
+  .. code-tab:: c#
+
+    var context = new Dictionary<string, JToken> {{ "age", JToken.FromObject(23) }};
+    await configurationClient.AppendContext("user", "John", context);
+
+Here we updated the context in tweek for identity "user" with the id "John". We set john's age to 23.
 
 Querying configuration for a specific identity:
 -----------------------------------------------
@@ -93,6 +109,19 @@ Now when can query configurations for John and the rules will be calculated base
     }
 
     const myConfiguration = await tweekClient.fetch("path/to/my_configuration", options);
+
+  .. code-tab:: c#
+
+    using Tweek.Client.Extensions;
+
+    // ... 
+
+    string myStringValue = await configurationClient.Get<string>(
+      "/path/to/my_configuration", 
+      new Dictionary<string, string>{{"user", "john"}}
+    );
+
+
 
 editor video
 ------------
