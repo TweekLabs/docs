@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'tweek'
-copyright = u'2018, tweeklabs'
-author = u'tweeklabs'
+project = u'TweekLabs.io'
+copyright = u'2018, TweekLabs.io'
+author = u'TweekLabs.io'
 
 # The short X.Y version
 version = u''
@@ -100,7 +100,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'tweekdoc'
+htmlhelp_basename = 'tweeklabsdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -127,8 +127,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'tweek.tex', u'tweek Documentation',
-     u'tweeklabs', 'manual'),
+    (master_doc, 'tweeklabs.tex', u'TweekLabs.io Documentation',
+     u'TweekLabs.io', 'manual'),
 ]
 
 
@@ -137,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'tweek', u'tweek Documentation',
+    (master_doc, 'TweekLabs.io', u'TweekLabs.io Documentation',
      [author], 1)
 ]
 
@@ -148,9 +148,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'tweek', u'tweek Documentation',
-     author, 'tweek', 'One line description of project.',
-     'Miscellaneous'),
+    (master_doc, 'TweekLabs.io', u'TweekLabs.io Documentation',
+     author, 'TweekLabs.io', 'TweekLabs.io is a SaaS feature management solution for customizing applications and system behavior without deploying new code.',
+     'SaaS'),
 ]
 
 
