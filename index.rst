@@ -8,6 +8,9 @@ Tweek documentation
 
   tweek is an opensource maintained by Soluto. `Tweek on github <https://github.com/Soluto/tweek/>`_.
 
+* **Overview**
+  :doc:`Introduction <introduction/introduction>`
+
 * **Getting started**:
   :doc:`Quick start <intro/quickstart>`
 
@@ -18,6 +21,13 @@ Tweek documentation
 
 * **Api**:
   :doc:`Rest Api <api/rest>`
+
+.. toctree::
+  :maxdepth: 2  
+  :hidden:
+  :caption: Overview
+
+  introduction/introduction
 
 .. toctree::
    :maxdepth: 2
