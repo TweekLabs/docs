@@ -120,16 +120,3 @@ Now when can query configurations for John and the rules will be calculated base
       "/path/to/my_configuration", 
       new Dictionary<string, string>{{"user", "john"}}
     );
-
-
-
-editor video
-------------
-
-.. raw:: html
-
-  <div class="Ratio_keeper"> 
-    <div class="Ratio_keeper_inner">
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Kqh827_HKeI?vq=hd1080" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-  </div>

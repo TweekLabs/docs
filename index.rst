@@ -16,6 +16,7 @@ Tweek documentation
 - **Getting started**:
 
   * :doc:`Quick start <intro/quickstart>`
+  * :doc:`Editor - control your app remotely <intro/editor>`
 
 - **Concepts**:
 
@@ -41,6 +42,7 @@ Tweek documentation
    :caption: First Steps
 
    intro/quickstart
+   intro/editor
 
 .. toctree::
    :maxdepth: 2
