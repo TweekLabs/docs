@@ -24,6 +24,11 @@ Tweek documentation
   * :doc:`Identities, properties and schema <concepts/identities_properties_schema>`
   * :doc:`Keys and Paths <concepts/keys_paths>`
 
+- **Editor**
+
+  * :doc:`Introduction <editor/introduction>`
+  * :doc:`Identity <editor/identity>`
+
 - **Api**:
 
   * :doc:`Rest Api <api/rest>`
@@ -37,25 +42,34 @@ Tweek documentation
   introduction/why_tweek
 
 .. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: First Steps
+  :maxdepth: 2
+  :hidden:
+  :caption: First Steps
 
-   intro/quickstart
-   intro/editor
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Concepts
-
-   concepts/context
-   concepts/identities_properties_schema
-   concepts/keys_paths
+  intro/quickstart
+  intro/editor
 
 .. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Api
+  :maxdepth: 2
+  :hidden:
+  :caption: Concepts
 
-   api/rest
+  concepts/context
+  concepts/identities_properties_schema
+  concepts/keys_paths
+
+.. toctree::
+  :maxdepth: 2
+  :hidden:
+  :caption: Editor
+
+  editor/introduction
+  editor/identity
+
+
+.. toctree::
+  :maxdepth: 2
+  :hidden:
+  :caption: Api
+
+  api/rest
