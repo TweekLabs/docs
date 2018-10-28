@@ -1,4 +1,4 @@
-kyes and rules
+Keys and Rules
 ==============
 
 Add key
