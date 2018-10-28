@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'TweekLabs.io'
-copyright = u'2018, TweekLabs.io'
-author = u'TweekLabs.io'
+project = u'Configz.io'
+copyright = u'2018, Configz.io'
+author = u'Configz.io'
 
 # The short X.Y version
 version = u''
@@ -100,7 +100,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'tweeklabsdoc'
+htmlhelp_basename = 'configzdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -127,8 +127,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'tweeklabs.tex', u'TweekLabs.io Documentation',
-     u'TweekLabs.io', 'manual'),
+    (master_doc, 'configz.tex', u'Configz.io Documentation',
+     u'Configz.io', 'manual'),
 ]
 
 
@@ -137,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'TweekLabs.io', u'TweekLabs.io Documentation',
+    (master_doc, 'Configz.io', u'Configz.io Documentation',
      [author], 1)
 ]
 
@@ -148,8 +148,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'TweekLabs.io', u'TweekLabs.io Documentation',
-     author, 'TweekLabs.io', 'TweekLabs.io is a SaaS feature management solution for customizing applications and system behavior without deploying new code.',
+    (master_doc, 'Configz.io', u'Configz.io Documentation',
+     author, 'Configz.io', 'Configz.io is a SaaS feature management solution for customizing applications and system behavior without deploying new code.',
      'SaaS'),
 ]
 
@@ -173,7 +173,7 @@ epub_exclude_files = ['search.html']
 
 html_context = {
   'display_github': True,
-  'github_user': 'TweekLabs',
+  'github_user': 'Configz',
   'github_repo': 'docs',
   'github_version': 'master/'
 }

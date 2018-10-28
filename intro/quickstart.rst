@@ -27,12 +27,12 @@ Create a client
   .. code-tab:: javascript
 
     const tweekClient = createTweekClient({
-      baseServiceUrl: "https://api.{subdomain}.tweeklabs.io",
+      baseServiceUrl: "https://api.{subdomain}.configz.io",
     });
 
   .. code-tab:: c#
 
-    ITweekApiClient configurationClient = new TweekApiClient(new Uri("https://api.{subdomain}.tweeklabs.io"));
+    ITweekApiClient configurationClient = new TweekApiClient(new Uri("https://api.{subdomain}.configz.io"));
 
 - :code:`{subdomain}` is the name of your organization or environment
 
