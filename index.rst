@@ -3,15 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Tweek documentation
-===================
+Configz.io documentation
+========================
 
-  tweek is an opensource Feature Management platform maintained by Soluto. `Tweek on github <https://github.com/Soluto/tweek/>`_.
-
-- **Overview**
-
-  * :doc:`Introduction <introduction/introduction>`
-  * :doc:`Why Tweek? <introduction/why_tweek>`
+  Configz.io based on `Tweek <https://github.com/Soluto/tweek/>`_. Tweek is an opensource Feature Management platform maintained by Soluto.
 
 - **Getting started**:
 
@@ -32,14 +27,6 @@ Tweek documentation
 - **Api**:
 
   * :doc:`Rest Api <api/rest>`
-
-.. toctree::
-  :maxdepth: 2  
-  :hidden:
-  :caption: Overview
-
-  introduction/introduction
-  introduction/why_tweek
 
 .. toctree::
   :maxdepth: 2
