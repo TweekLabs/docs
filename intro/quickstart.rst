@@ -15,9 +15,7 @@ Setting up Tweek to control your first feature flag takes only a few minutes. Fi
 
   .. code-tab:: c#
 
-    int main(const int argc, const char **argv) {
-      return 0;
-    }
+    nuget install Tweek.Client
 
 Create a client
 ---------------
