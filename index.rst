@@ -23,6 +23,7 @@ Configz.io documentation
 
   * :doc:`Introduction <editor/introduction>`
   * :doc:`Identity <editor/identity>`
+  * :doc:`Context <editor/context>`
 
 - **Api**:
 
@@ -52,7 +53,7 @@ Configz.io documentation
 
   editor/introduction
   editor/identity
-
+  editor/context
 
 .. toctree::
   :maxdepth: 2
