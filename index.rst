@@ -24,6 +24,7 @@ Configz.io documentation
   * :doc:`Introduction <editor/introduction>`
   * :doc:`Identity <editor/identity>`
   * :doc:`Context <editor/context>`
+  * :doc:`Keys and Rules <editor/keysAndRules>`
 
 - **Api**:
 
@@ -54,6 +55,7 @@ Configz.io documentation
   editor/introduction
   editor/identity
   editor/context
+  editor/keysAndRules
 
 .. toctree::
   :maxdepth: 2
