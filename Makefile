@@ -14,6 +14,9 @@ help:
 livehtml:
 	sphinx-autobuild $(SOURCEDIR) $(SOURCEDIR)/$(BUILDDIR)/html
 
+sync:
+	aws s3 sync $(SOURCEDIR)/$(BUILDDIR)/html s3://docs.configz.io/
+
 .PHONY: help Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
