@@ -30,9 +30,13 @@ Create a client
       baseServiceUrl: "https://api.{subdomain}.configz.io",
     });
 
+  .. code-tab:: java
+
+    TweekApiClient tweekClient = new TweekApiClient("https://api.{subdomain}.configz.io");
+
   .. code-tab:: c#
 
-    ITweekApiClient configurationClient = new TweekApiClient(new Uri("https://api.{subdomain}.configz.io"));
+    ITweekApiClient tweekClient = new TweekApiClient(new Uri("https://api.{subdomain}.configz.io"));
 
 - :code:`{subdomain}` is the name of your organization or environment
 
@@ -48,13 +52,17 @@ Querying for "path/to/my_configuration" will lead to key named :code:`my_configu
   
     const myConfiguration = await tweekClient.fetch("path/to/my_configuration");
 
+  .. code-tab:: java
+
+    String myStringValue = tweekClient.getString("path/to/my_configuration");
+
   .. code-tab:: c#
 
     using Tweek.Client.Extensions;
 
     // ... 
 
-    string myStringValue = await configurationClient.Get<string>("/path/to/my_configuration", null);
+    string myStringValue = await tweekClient.Get<string>("path/to/my_configuration", null);
 
 Editing context
 ---------------
@@ -79,16 +87,17 @@ It is possible to update or create (upsert) it's context with the sdk.
 
   .. code-tab:: javascript
 
-    const context = {
-      age: 23,
-    };
+    await tweekClient.appendContext("user", "John", { age: 23 });
 
-    await tweekClient.appendContext("user", "John", context);
+  .. code-tab:: java
+
+    Map<String, String> contextMap = new HashMap<>();
+    contextMap.put("age", 23);
+    tweekClient.appendContext("user", "John", contextMap);
 
   .. code-tab:: c#
 
-    var context = new Dictionary<string, JToken> {{ "age", JToken.FromObject(23) }};
-    await configurationClient.AppendContext("user", "John", context);
+    await tweekClient.AppendContext("user", "John", new Dictionary<string, JToken> {{ "age", JToken.FromObject(23) }});
 
 Here we updated the context in tweek for identity "user" with the id "John". We set john's age to 23.
 
@@ -110,13 +119,19 @@ Now when can query configurations for John and the rules will be calculated base
 
     const myConfiguration = await tweekClient.fetch("path/to/my_configuration", options);
 
+  .. code-tab:: java
+
+    Map<String, String> contextMap = new HashMap<>();
+    contextMap.put("user","john");
+    String myStringValue = tweekClient.getString("path/to/my_configuration", contextMap);
+
   .. code-tab:: c#
 
     using Tweek.Client.Extensions;
 
     // ... 
 
-    string myStringValue = await configurationClient.Get<string>(
+    string myStringValue = await tweekClient.Get<string>(
       "/path/to/my_configuration", 
       new Dictionary<string, string>{{"user", "john"}}
     );
