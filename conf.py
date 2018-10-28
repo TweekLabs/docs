@@ -173,7 +173,7 @@ epub_exclude_files = ['search.html']
 
 html_context = {
   'display_github': True,
-  'github_user': 'Configz',
+  'github_user': 'configzio',
   'github_repo': 'docs',
   'github_version': 'master/'
 }
