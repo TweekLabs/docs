@@ -5,13 +5,9 @@ Setting up Tweek to control your first feature flag takes only a few minutes. Fi
 
 .. tabs::
 
-  .. code-tab:: javascript npm
+  .. code-tab:: javascript
 
     npm install --save tweek-client
-
-  .. code-tab:: javascript yarn
-
-    yarn add tweek-client
 
   .. code-tab:: c#
 
