@@ -9,6 +9,10 @@ Setting up Tweek to control your first feature flag takes only a few minutes. Fi
 
     npm install --save tweek-client
 
+  .. code-tab:: java
+
+    mvn dependency:get -Dartifact=io.configz:tweek-java-client:1.0-SNAPSHOT
+    
   .. code-tab:: c#
 
     nuget install Tweek.Client
