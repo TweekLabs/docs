@@ -6,7 +6,7 @@
 Configz.io documentation
 ========================
 
-  Configz.io based on `Tweek <https://github.com/Soluto/tweek/>`_. Tweek is an opensource Feature Management platform maintained by Soluto.
+  Configz.io is based on `Tweek <https://github.com/Soluto/tweek/>`_. Tweek is an opensource Feature Management platform maintained by Soluto.
 
 - **Getting started**:
 
