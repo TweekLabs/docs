@@ -15,7 +15,7 @@ livehtml:
 	sphinx-autobuild $(SOURCEDIR) $(SOURCEDIR)/$(BUILDDIR)/html
 
 sync:
-	aws s3 sync $(SOURCEDIR)/$(BUILDDIR)/html s3://docs.configz.io/
+	aws s3 sync $(SOURCEDIR)/$(BUILDDIR)/html s3://docs.configz.io/ --delete
 
 .PHONY: help Makefile
 
