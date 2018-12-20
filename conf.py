@@ -179,6 +179,5 @@ html_context = {
 }
 
 def setup(app):
-    app.add_stylesheet('css/custom.css')
-    app.add_javascript("https://www.googletagmanager.com/gtag/js?id=UA-126125132-2")
-    app.add_javascript("js/google_analytics_tracker.js")
+    app.add_stylesheet('css/custom.css')    
+    app.add_javascript("js/GTM.js")
